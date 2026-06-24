@@ -70,7 +70,7 @@
   border-width: 1px;
   border-radius: 100%;
   margin-left: 20px;
-  margin-right: 209px;
+  margin-right: 64px;
 }
 .minus {
   position: relative;
@@ -83,6 +83,7 @@
   margin-top: 5px;
   margin-bottom: 0px;
   height: 60px;
+  width: 310px;
   display: flex;
 }
 
@@ -93,7 +94,7 @@
   margin-bottom: 0px;
   position: relative;
   display: inline-block;
-  width: 308px;
+  width: 300px;
   height: 20px;
   border-width: 2px;
   border-color: black;
@@ -101,8 +102,8 @@
 }
 
 .shots {
-  margin-left: 35px;
-  margin-right: 60px;
+  margin-left: 20px;
+  margin-right: 80px;
   margin-top: 0px;
   display: inline-block;
   width: auto;
@@ -130,7 +131,7 @@
 
 .sideStats {
   position: fixed;
-  margin-left: 20px;
+  margin-left: 200px;
   top: 20px;
 }
 
@@ -213,16 +214,13 @@
   color: rgb(0, 165, 0);
 }
 
-#homeScoreMinus {
-  margin-right: 80px;
-}
 
 #away {
   color: rgb(126, 182, 255);
 }
 
-#awayShots {
-  margin-right: 10px;
+#awayShotsText {
+  margin-right: -10px;
 }
 
 #awayScorePlus {
@@ -303,7 +301,7 @@
 .fullTimer {
   position: relative;
   top: 20px;
-  margin-left: -150px;
+  margin-left: -130px;
 }
 .btnText {
   position: relative;
